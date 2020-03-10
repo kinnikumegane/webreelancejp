@@ -1,0 +1,29 @@
+#about{
+    & a {
+        border-bottom: none !important;
+    }
+
+    & p {
+        font-size: .9rem;
+    }
+
+    @include breakpoint(medium) {
+        & article{
+            width: 100% !important;
+
+            & p{
+                font-size: .9rem;
+            }
+        }
+    }
+
+    @include breakpoint(small) {
+        & article{
+            width: 100% !important;
+
+            & p{
+                font-size: .7rem;
+            }
+        }
+    }
+}

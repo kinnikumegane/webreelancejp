@@ -1,0 +1,70 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Main */
+
+	#main {
+		background-color: _palette(bg-alt);
+
+		& header {
+			& h2, h3 {
+				&:hover{
+					color: rgb(155, 241, 255) !important;
+				}
+			}
+		}
+
+		> * {
+			border-top: solid 1px _palette(border);
+
+			&:first-child {
+				border-top: 0;
+			}
+
+			@include inner;
+		}
+
+		&.alt {
+			background-color: transparent;
+			border-bottom: solid 1px _palette(border);
+		}
+
+		// following info is to show background image in Contact section
+		&:after{
+			content:"";
+			@include vendor('background-image', 'url("../images/banner.jpg")');
+			opacity: 0.1;
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 742px;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index:-100;
+		}
+		@include breakpoint(large) {
+			&:after{
+				height: 639.5px;
+			}
+		}
+		@include breakpoint(small) {
+			&:after{
+				height: 582.1px;
+			}
+		}
+		@include breakpoint(xsmall) {
+			&:after{
+				height: 684px;
+			}
+		}
+		@include breakpoint(xxsmall) {
+			&:after{
+				height: 627.66px;
+			}
+		}
+	}
