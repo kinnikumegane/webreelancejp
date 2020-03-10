@@ -62,17 +62,22 @@ class HomeIndex extends React.Component {
                     <section id="about" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>主なスキル</h3>
-                                <p>Frontend:<br/>HTML5, CSS5, SASS, JavaScript, jQuery</p>
-                                <br/>
-                                <p>CMS:<br/>WordPress, Contentful on Gatsby</p>
+                                <h3>Webreelanceとは</h3>
+                                <p>Webreelanceとは、WebとFreelanceを組み合わせた造語です。</p><br />
+                                <p>Webを使って、そしてFreelanceとして、社会に価値を還元したい、という僕自身のサブタイトルのような位置付けでこの言葉を作りました。</p><br />
+                                <p>過去数年間に蓄えてきたエンジニアとしての力を使って、お客様の目的に合わせたWebを制作いたします。</p>
                             </header>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>自己紹介</h3>
                                 <p><a href="https://kinnikumegane.com" target="_blank" rel="noopener noreferrer">筋肉めがね</a></p>
-                                <p>九州出身、ドイツ在住の駆け出しエンジニアです。<br /><br />少しずつ蓄えてきたエンジニアとしての力を社会に還元したい、という思いでサービスをたちあげました。<br/><br/>お客様の目的に合わせたWebを制作いたします。</p>
+                                <p>九州出身、ドイツ在住の駆け出しエンジニアです。<br /><br />
+                                1993　初めてコンピューターゲームで遊ぶ。Super Depthという潜水艦ゲーム。<br />
+                                2013　Codecademyでプログラミングを学ぶ。<br />
+                                2019　<a href="https://kinnikumegane.com" target="_blank" rel="noopener noreferrer">日本語でのブログサイト</a>を開設。<br />
+                                2020　本サイトを作成。
+                                </p>
                             </header>
                         </article>
                     </section>
