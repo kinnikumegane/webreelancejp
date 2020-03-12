@@ -5,6 +5,14 @@ module.exports = {
     description: "Web制作、承ります。"
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-gtag',
+      options: { 
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        head: true,
+        anonymize: true,
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,

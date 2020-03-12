@@ -8,7 +8,7 @@ const Contact = (props) => (
             </header>
             <div className="grid-wrapper">
                 <div className="col-12">
-                    <form method="post" action="#">
+                    <form name="contact" method="post" data-netlify="true">
                         <div className="field half first">
                             <label htmlFor="name">Name</label>
                             <input type="text" name="name" id="name" />
