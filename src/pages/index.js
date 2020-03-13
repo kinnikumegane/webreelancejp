@@ -72,12 +72,11 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h3>自己紹介</h3>
                                 <p><a href="https://kinnikumegane.com" target="_blank" rel="noopener noreferrer">筋肉めがね</a></p>
-                                <p>九州出身、ドイツ在住の駆け出しエンジニアです。<br /><br />
-                                1993　初めてコンピューターゲームで遊ぶ。Super Depthという潜水艦ゲーム。<br />
-                                2013　Codecademyでプログラミングを学ぶ。<br />
-                                2019　<a href="https://kinnikumegane.com" target="_blank" rel="noopener noreferrer">日本語でのブログサイト</a>を開設。<br />
-                                2020　本サイトを作成。
-                                </p>
+                                <p>九州出身、ドイツ在住の駆け出しエンジニアです。</p><br />
+                                <p>1993　初めてコンピューターゲームで遊ぶ。Super Depthという潜水艦ゲーム。</p>
+                                <p>2013　Codecademyでプログラミングを学ぶ。</p>
+                                <p>2019　<a href="https://kinnikumegane.com" target="_blank" rel="noopener noreferrer">日本語でのブログサイト</a>を開設。</p>
+                                <p>2020　本サイトを作成。</p>
                             </header>
                         </article>
                     </section>
