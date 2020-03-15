@@ -9,6 +9,7 @@ const Footer = (props) => (
                 <li><a href="https://github.com/kinnikumegane" target="_blank" rel="noopener noreferrer" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
             </ul>
             <ul className="copyright">
+                <li>Email: webreelance(at)gmail.com</li>
                 <li>&copy; webreelance 2020</li>
             </ul>
         </div>

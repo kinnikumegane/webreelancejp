@@ -39,21 +39,21 @@ class HomeIndex extends React.Component {
                                     <h5>LP制作</h5>
                                     <hr/>
                                     <p>ご準備いただきましたデザイン案を基に、LP(Landing Page)を制作いたします。テキスト・写真などの素材はご準備ください。</p>
-                                    <p>料金：10,000円〜<br/>納期目安：2週間以内</p>
+                                    <p>料金：6,000円〜<br/>納期目安：2週間以内</p>
                                 </div>
                                 <div className="col-4">
                                     <span className="icon major style1 fa-wordpress"></span>
                                     <h5>WordPressサイト制作</h5>
                                     <hr/>
                                     <p>ホームページ、ブログなどお客様の目的に合わせてWordPressサイトを制作いたします。サーバーの設定、ドメインの取得も併せてサポートいたします。</p>
-                                    <p>料金：30,000円〜<br/>納期目安：2ヶ月以内</p>
+                                    <p>料金：20,000円〜<br/>納期目安：2ヶ月以内</p>
                                 </div>
                                 <div className="col-4">
                                     <span className="icon major style1 fa-code"></span>
                                     <h5>Gatsbyサイト制作</h5>
                                     <hr/>
                                     <p>爆速で有名なGatsbyという技術を用いて、ホームページ、ブログを制作いたします。Gatsbyでブログを作る場合は、ContentfulをCMSとして使用します。サーバーの設定、ドメインの取得も併せてサポートいたします。</p>
-                                    <p>料金：20,000円〜<br/>納期目安：1ヶ月以内</p>
+                                    <p>料金：10,000円〜<br/>納期目安：1ヶ月以内</p>
                                 </div>
                             </div>
                         </div>
